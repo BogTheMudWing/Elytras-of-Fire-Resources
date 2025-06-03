@@ -1,33 +1,9 @@
-# Dragonspeak
+# Elytras of Fire Resources
 
-Dragonspeak is a Minecraft resource pack for [Wings of Fire: The New World](https://woftnw.org). It was originally created by Stonley890 and Starinquirer and is now maintained by the WOFTNW staff team. It's primary feature is its collection of custom wings, but it also has smaller WOF-inspired changes as well as ability icons for [Elytras of Fire](https://github.com/iHeronGH/Elytras-of-Fire). You can read more about Dragonspeak on the [WOFTNW Wiki](https://wiki.woftnw.org/wiki/Dragonspeak).
+ A Minecraft: Java Edition resource pack that adds resources for the Elytras of Fire data pack.
 
-## Contributing
+ ## About
 
-Thanks for you interest in contributing! Please keep in mind the following when making contributions:
+ [Elytras of Fire](https://github.com/iHeronGH/Elytras-of-Fire) is a Minecraft: Java Edition data pack that adds abilities based on the *Wings of Fire* series of novels by Tui T. Sutherland. The data pack is most famously included on the [Wings of Fire: The New World](https://woftnw.org) Minecraft server. The ability items have custom textures that are supplied by the server's [Dragonspeak](https://github.com/WOFTNW/Dragonspeak) resource pack. Without the resource pack, the ability items are missing models.
 
-### Designing Wings
-
-Elytras require two textures. One is the equipment model that appears on the player. This should be designed first. See the guide texture below.
-
-![guide image](assets/minecraft/textures/entity/equipment/wings/guide.png)
-
-Use this alongside the already-existing elytra textures to design your texture.
-
-### Implementing Wings
-
-Included in this repository is a Python script, `create_wings_gui.py`. You can use this to quickly implement wings into the existing structure.
-
-1. **Select Item PNG File.** This is the square image that appears in the inventory.
-2. **Select Equipment PNG File.** This is the model file that the player wears.
-3. **Enter Item Name.** The item name is the internal name of the wing set. It should be snake_case, with no capital letters and underscores between words.
-4. **Enter Subpath.** This is where the wings will be stored. The following paths exist:
-   - `tribes`: contains a folder for each tribe, each of which contains tribe-specific wings.
-   - `staff`: contains staff wings.
-   - `special`: contains special wings.
-
-You can test your wings in-game by running the command:
-
-```mcfunction
-/give @s elytra[equippable={slot:"chest",model:"minecraft:<subpath>/<itemname>"},item_model="minecraft:<subpath>/<itemname>"]
-```
+ This repository is a fork of Dragonspeak with everything stripped out except the resources needed for Elytras of Fire so that you can use it as a standalone companion for Elytras of Fire.

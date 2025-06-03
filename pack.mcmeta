@@ -2,9 +2,9 @@
   "pack": {
     "pack_format": 46,
     "supported_formats": {
-        "min_inclusive": 18,
-        "max_inclusive": 46
+        "min_inclusive": 44,
+        "max_inclusive": 63
     },
-    "description": "Welcome to Wings of Fire!"
+    "description": "Resources for Elytras of Fire."
   }
 }
