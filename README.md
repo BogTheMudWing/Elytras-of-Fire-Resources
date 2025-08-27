@@ -10,7 +10,7 @@
 
 ## Installation
 
-1. Download the latest release.
+1. Download the [latest release](https://code.macver.org/Bog/Elytras-of-Fire-Resources/releases/latest).
 2. Open Minecraft and go to Options > Resource Packs.
 3. Click and drag `Elytras of Fire Resources.zip` into the Minecraft window and drop it.
 4. Hover over the **Elytras of Fire Resources.zip** entry and click the arrow to move it from *Available* to *Selected*.
